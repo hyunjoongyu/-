@@ -1,66 +1,70 @@
-<!doctype hyml>
+<!doctype html>
 <html>
 <head>
-<title>hyunjoong</title>
-<meta charset="utf-8">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158945104-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <title>유현중</title>
+  <meta charset="utf-8">
+  <style>
+  body{
+    margin:0;
+  }
 
-  gtag('config', 'UA-158945104-1');
-</script>
+a {
+  color:black;
+  text-decoration: none;
+}
+h1 {
+  font-size:45px;
+  text-align:center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px;
+}
+ol{
+  border-right:1px solid gray;
+  width:100px;
+  margin:0;
+  padding:20px;
 
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid ol{
+  padding-left:33px;
+}
+#grid #article{
+  padding-left:25px;
+}
+
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right:none;
+  }
+  h1{
+    border-bottom:none;
+  }
+}
+  </style>
 </head>
 <body>
-  <h1>유현중이 연습중인 사이트</h1>
+  <h1><a href="index.html">냐옹</font></a></h1>
+  <div id="grid">
   <ol>
-  <li><a href="1.html">눌러도 소용없는 링크<li>
-  <li><a href="2.html">마찬가지 태그</li>
-  <li><a href="3.html">진짜 진짜로 </li>
-</ol>
-<h2> 이수아 그녀는 누구인가 </h2>
-이수아 인스타그램
-<p><a href="https://www.instagram.com/edaeun_/"target="_blank" title="이수아의 인스타그램">(HTML)</a>
-</p><p style="margin-top:45px;">
-그녀는 용인에 사는 신천지를 다니는 코로나 바이러스 휴학생.
-<img src="jum.jpeg" width="30%">
-이렇게 생겼다.
-<div id="disqus_thread"></div>
-<p></p>
-<p></p>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://garcon-1.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5e525667a89cda5a18877ddc/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-</body>
+    <li><a href="1.html" >냥</font></a></li>
+    <li><a href="2.html" >냥냥</font></a></li>
+    <li><a href="3.html">냥냥냥</font></a></li>
+  </ol>
+  <div id="article">
+  <h2>고양이</h2>
+  <p>
+    포유류의 일종. 식육목 고양잇과에 속하는 대표적인 동물이다. 크게는 가축화한 집고양이와 야생고양이로 나뉜다. 대개 개보다는 작은 몸집에[2][3] 다른 주요 가축에 비해 육식동물의 야생성이 잘 남아있어 쥐 등의 해로운 소동물을 사냥해 인간에게 도움이 될 뿐만 아니라 귀엽거나 요염한 외모로 애완용으로 인기가 매우 많아[4] 개와 함께 애완동물계의 양대 산맥이며, 아주 먼 과거부터 인간과 함께하고 있는 동물이다.
+    애완동물로 함께 길러지는 개와 비교할 때 가장 두드러지는 특성은 집단생활에 적응해 복종의 본능이 강한 개와는 달리 주인과 고양이가 보다 동등한 가족의 일원의 개념이며, 보통 수평 관계를 선호한다. 교육을 받지 않아도 자신의 주인을 어미 고양이 정도로 인식하거나, 아무리 주인의 급이 낮더라도 같은 무리의 소속원급으로 취급한다. 이는 고양이의 사회에서도 같으며, 고양이의 가족 구성원들은 서로 상부상조하는 관계로 무리에서 상하 관계가 뚜렷하게 보이는 개와는 상반된다. 단, 가족이 아닌 고양이들의 무리에는 서열 관계가 존재한다.
+  </p>
+  </div>
+</div>
+  </body>
+  </html>
